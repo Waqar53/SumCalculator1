@@ -1,0 +1,35 @@
+
+
+
+
+
+<html>
+    <script>
+function fn(){
+
+const a=document.getElementById("firstno").value;
+const b=document.getElementById("secondno").value;
+
+
+
+
+const element=document.getElementById("FinalSum");
+element.innerHTML="I Love you "+ (parseInt(a)+parseInt(b))+" times";
+}
+    </script>
+    
+
+<body>
+<h1>Sum Calculator</h1>
+
+
+<input id="firstno" type="text" placeholder="first no"></input><br></br>
+<input id="secondno"type="text" placeholder="second no"></input><br></br>
+<button onclick="fn()">Calculate</button><br></br>
+<div id="FinalSum"></div>
+
+
+</body>
+
+
+</html>
